@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>POST</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3 (1).css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="w3-colors-2019 (1).css">
+<link rel="stylesheet" href="w3-colors-food.css">
+<link rel="stylesheet" href="w3-colors-vivid.css">
+<style>
+body {font-family: "Lato", sans-serif}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-2019-jester-red w3-text-lime w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+    <a href="podcast.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PODCAST</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIDEOS</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-2019-jester-red w3-text-lime " style="margin-top:46px">
+    <a class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+    <a href="blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+    <a href="podcast.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PODCAST</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">VIDEOS</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="w3-content w3-2019-jester-red w3-text-lime" style="max-width:2000px;margin-top:46px">
+      <!-- Header -->
+      <header class="w3-container w3-center w3-padding-16 w3-white">
+        <h1 class="w3-xxlarge"><b>MENTOR TO PERFECTION</b></h1>
+        <h6 class="w3-text-orange w3-serif"><i>We're here to help you become more self-confident and take control of your life!</i></h6>
+      </header>
+    
+    <!--IMAGE-->
+    <div class="w3-display-container w3-center">
+        <img src="images2/pemcils.jpg" style="width:70%;">  
+    </div>
+    <h1>Reasons why you're insecure</h1>
+    </div>
+
+    <!--content page-->
+    <div class="w3-content " style="max-width:2000px;margin-top:46px">
+    <!--CONTENT-->
+    <div class="w3-container">
+        <div class="w3-white">
+            <h2>hbfknhdvnj</h2>
+        </div>
+<!--COMMENTING SECTION-->
+        <div id="comments" class="w3-half  w3-2019-jester-red w3-text-lime" style="margin-top:32px;">
+            <h2>Leave a comment</h2>
+            <br>
+            <form action="/action_page.php" target="_blank">
+              <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+              <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+              <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+              <p>
+                <button class="w3-button w3-" type="submit">
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </p>
+            </form>
+            </div>
+
+    </div>
+    <!--End of page-->
+    </div>
+
+    <script>
+ 
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+          var x = document.getElementById("navDemo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+       
+        
+        </script>
+
+
+    </body>
+    </html>
